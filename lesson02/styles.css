@@ -1,0 +1,21 @@
+/* Modern selector for headings */
+:is(h1, h2, h3) {
+color: black;
+font-family: 'Varela Round', sans-serif;
+}
+
+/* Descendant selector for links */
+article a {
+color: green;
+}
+
+/* Make ALL h3 italic (covers "Me Neither!") */
+h3 {
+font-style: italic;
+}
+
+/* Custom style for "Not Me!" */
+.not-me {
+color: purple;
+font-size: 22px;
+}
